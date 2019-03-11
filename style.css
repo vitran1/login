@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Assignment 2 Style</title>
+        <style type = "text/css">
+
+            .Login-page {
+                width: 100%;
+                padding: 12px 20px;
+                margin: auto;}
+
+            .form {
+                position:relative;
+                background-color: white;
+                padding: 35px;
+                width: 300px;
+                margin: 300px auto;
+                text-align: center;}
+
+            input[type=text], input[type=password] {
+                font-family: sans-serif;
+                background: none;
+                width: 100%;
+                margin: 6px;
+                padding: 6px;
+                box-sizing: border-box;
+                font-size: 12px; }
+
+            button[type=button]{
+                font-family: sans-serif;
+                text-transform: uppercase;
+                background-color: #4CAF50;
+                width: 100%;
+                margin: 6px;
+                padding: 6px;
+                color: white;
+                font-size: 12px;
+                cursor: pointer;
+                border: 0;
+                box-shadow: none;
+                border-radius: 0px;}
+
+                button:hover {
+                  opacity: 0.8;
+                }
+
+            label {
+                position:relative;
+                color: brown;
+                width: 100%;
+                font-weight:bold;
+                display:block;
+                margin: auto;
+                text-align: center; }
+
+            body {
+                background-color: grey; }
+
+        </style>
+
+    </head>
+</html>

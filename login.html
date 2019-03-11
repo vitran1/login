@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <div class="form">
+            <form method="post" action="user.html">
+                    <div class="Login-page">
+                        <label for="inputEmail">Email</label>
+                        <input name="email" type="text" class="form-control" maxlength="30">
+
+                        <label for="inputUsername">Username</label>
+                        <input name="username" type="text" class="form-control" maxlength="30">
+
+                        <label for="inputPassword">Password</label>
+                        <input name="password" type="password" class="form-control" required>
+
+                        <button class="loginBtn" type="button" onclick=login(form)>Login</button>
+                    </div>
+            </form>
+        </div>
+        
+        <script>
+            
+           function login(form){
+            if((form.email.value.toLowerCase() == "mike@gmail.com") && (form.username.value.toLowerCase() == "mike") && (form.password.value == "password")){
+            self.location.href = "user.html";
+                }
+            else{
+                alert("Login has failed. Please check username and/or password.");
+                return false;
+                }
+            } 
+        </script>
+        
+    </head>
+        <body></body>
+</html>
